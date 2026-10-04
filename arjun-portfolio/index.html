@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Professional portfolio for Arjun, a frontend developer showcasing work, skills, and contact details."
+    />
+    <title>Arjun | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="#home" class="brand">Arjun</a>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a href="assets/resume/Arjun-Resume.txt" class="btn btn-primary" download>Resume</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero__content">
+          <div class="hero__text">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1 id="profile-name">Arjun</h1>
+            <p class="hero__subtitle" id="profile-role">Frontend Developer</p>
+            <p class="hero__description">
+              I design and build polished digital experiences that combine strong user experience,
+              performance, and clear business value.
+            </p>
+
+            <div class="hero__actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="mailto:hello@aaravsharma.dev" class="btn btn-secondary">Hire Me</a>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">GitHub</a>
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">LinkedIn</a>
+              <a href="mailto:hello@aaravsharma.dev" aria-label="Email">Email</a>
+            </div>
+          </div>
+
+          <div class="hero__image-box">
+            <div class="profile-card">
+              <img
+                src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=900&q=80"
+                alt="Professional portrait of Arjun"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="container stats-grid">
+          <div class="stat-card">
+            <strong>3+</strong>
+            <span>Years Experience</span>
+          </div>
+          <div class="stat-card">
+            <strong>24+</strong>
+            <span>Projects Delivered</span>
+          </div>
+          <div class="stat-card">
+            <strong>98%</strong>
+            <span>Client Satisfaction</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h2>Building simple, thoughtful experiences.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <p>
+                Iâ€™m a frontend developer focused on crafting responsive interfaces, intuitive workflows,
+                and clean code that scales with business goals. I enjoy turning ideas into products that
+                are easy to use and easy to trust.
+              </p>
+            </div>
+
+            <div class="about-details">
+              <div class="detail-item">
+                <span class="label">Location</span>
+                <span id="location">Bengaluru, India</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">Availability</span>
+                <span id="availability">Open to freelance and full-time roles</span>
+              </div>
+              <div class="detail-item">
+                <span class="label">Email</span>
+                <a href="mailto:hello@aaravsharma.dev">hello@aaravsharma.dev</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools and technologies I work with.</h2>
+          </div>
+          <div id="skills-grid" class="skills-grid"></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected work and product highlights.</h2>
+          </div>
+          <div id="projects-grid" class="projects-grid"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Letâ€™s build something impactful.</h2>
+          </div>
+
+          <div class="contact-actions">
+            <a href="mailto:hello@aaravsharma.dev" class="btn btn-primary">Send Email</a>
+            <a href="assets/resume/Arjun-Resume.txt" class="btn btn-secondary" download>Download Resume</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Â© <span id="year"></span> Arjun. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
+

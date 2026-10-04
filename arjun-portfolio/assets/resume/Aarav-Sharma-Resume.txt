@@ -1,0 +1,23 @@
+Aarav Sharma
+Frontend Developer
+
+Profile
+A frontend developer focused on responsive UI design, user experience, and high-quality digital products.
+
+Skills
+- HTML5
+- CSS3
+- JavaScript
+- React
+- Figma
+- UI/UX design
+- Accessibility
+
+Experience
+- Built responsive dashboards and landing pages for business teams.
+- Improved user-facing experiences through design systems and thoughtful front-end implementation.
+- Collaborated with product teams to deliver accessible, performance-focused interfaces.
+
+Contact
+Email: hello@aaravsharma.dev
+Portfolio: https://example.com
